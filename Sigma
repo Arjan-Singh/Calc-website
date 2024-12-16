@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus Fundamentals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #555;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Calculus Fundamentals</h1>
+        <p>Learn the essential concepts of calculus step by step.</p>
+    </header>
+
+    <nav>
+        <a href="#limits">Limits</a>
+        <a href="#derivatives">Derivatives</a>
+        <a href="#integrals">Integrals</a>
+        <a href="#applications">Applications</a>
+    </nav>
+
+    <section id="limits">
+        <h2>Understanding Limits</h2>
+        <p>Limits are the foundation of calculus. They help us understand how a function behaves as it approaches a specific point or infinity.</p>
+        <h3>Key Topics:</h3>
+        <ul>
+            <li>Definition of a Limit</li>
+            <li>One-Sided Limits</li>
+            <li>Limit Laws</li>
+            <li>Evaluating Limits Algebraically</li>
+        </ul>
+    </section>
+
+    <section id="derivatives">
+        <h2>Introduction to Derivatives</h2>
+        <p>Derivatives measure the rate of change of a function with respect to a variable. They are essential for understanding motion, optimization, and change.</p>
+        <h3>Key Topics:</h3>
+        <ul>
+            <li>Definition of the Derivative</li>
+            <li>Rules of Differentiation</li>
+            <li>Product, Quotient, and Chain Rules</li>
+            <li>Implicit Differentiation</li>
+        </ul>
+    </section>
+
+    <section id="integrals">
+        <h2>Exploring Integrals</h2>
+        <p>Integrals allow us to calculate areas under curves, volumes, and other accumulations. They are the reverse process of differentiation.</p>
+        <h3>Key Topics:</h3>
+        <ul>
+            <li>Definite and Indefinite Integrals</li>
+            <li>Fundamental Theorem of Calculus</li>
+            <li>Integration Techniques</li>
+            <li>Applications of Integration</li>
+        </ul>
+    </section>
+
+    <section id="applications">
+        <h2>Applications of Calculus</h2>
+        <p>Calculus has vast applications in science, engineering, economics, and beyond. Learn how to use calculus to solve real-world problems.</p>
+        <h3>Key Topics:</h3>
+        <ul>
+            <li>Optimization Problems</li>
+            <li>Motion Along a Line</li>
+            <li>Area Between Curves</li>
+            <li>Volume of Solids of Revolution</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Calculus Fundamentals. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
